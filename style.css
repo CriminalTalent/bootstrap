@@ -1,0 +1,61 @@
+body {
+  background-color: #e6f0fa;
+  font-family: "Noto Sans KR", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #003366;
+}
+
+.navbar {
+  background-color: #00264d;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-title {
+  color: #ffffff;
+  font-size: 18px;
+  margin: 0;
+}
+
+/* 헤더 섹션 */
+.hero-section {
+  position: relative;
+  background: url('https://i.ibb.co/pBt5jK9k/1500x500-1.jpg') center/cover no-repeat;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 40, 80, 0.5);
+}
+
+.hero-section .content {
+  position: relative;
+  z-index: 2;
+}
+
+/* 가이드 섹션 */
+.guide {
+  background: #ffffff;
+  border-left: 5px solid #005bb5;
+  color: #003366;
+}
+
+.btn-primary {
+  background-color: #005bb5;
+  border-color: #005bb5;
+}
+
+.btn-primary:hover {
+  background-color: #00408a;
+}
