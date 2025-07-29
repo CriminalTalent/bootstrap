@@ -1,0 +1,68 @@
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: #f4f8fc;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #00264d;
+  color: #fff;
+}
+
+.navbar h1 {
+  color: #fff;
+  font-size: 18px;
+}
+
+.section-title {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.program-list .btn {
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: left;
+  background-color: #63b3ed; /* 하늘색 */
+  border-color: #63b3ed;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.program-list .btn:hover {
+  background-color: #4299e1; /* 진한 하늘색 */
+  border-color: #4299e1;
+  color: #fff;
+}
+
+.program-container {
+  max-width: 500px;
+  margin: auto;
+}
+
+.hero-section {
+  position: relative;
+  background: url('https://i.ibb.co/pBt5jK9k/1500x500-1.jpg') center/cover no-repeat;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 40, 80, 0.5);
+}
+
+.hero-section .content {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
